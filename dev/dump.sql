@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS `stor` (
+  `key` varchar(255) NOT NULL PRIMARY KEY,
+  `value` longtext NOT NULL DEFAULT ''
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
